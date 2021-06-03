@@ -1,0 +1,110 @@
+
+.container {
+  width: 100vw;
+  font-family: 'Lato', sans-serif;
+
+}
+
+$navcolor: #4d4959;
+$about-bg: #f7f7f7;
+$logo-color: #64c29e;
+
+
+@media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-med) {
+  nav {
+    position: relative;
+    .nav-menu {
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      &__list {
+        margin-bottom: 35%;
+      }
+      &__item {
+        &_left {
+          display: none;
+        }
+
+        &_right {
+          display: none;
+        }
+      }
+
+      .fa-bars {
+        height: 100%;
+        display: flex;
+        font-size: 2em;
+        color: $logo-color;
+        background: #d9d4dd;
+        &:hover {
+          color: chartreuse;
+        }
+      }
+    }
+
+    .button-list {
+      height: 100%;
+      margin-top: 1em;
+      border: none;
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoint-small) {
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    &__list {
+      margin-bottom: 30%;
+    }
+
+    &__item {
+      img {
+        max-width: 70%;
+      }
+      &_left {
+        display: none;
+      }
+
+      &_right {
+        display: none;
+      }
+    }
+
+    .fa-bars {
+      height: 100%;
+      display: flex;
+      font-size: 2em;
+      color: $logo-color;
+      background: #d9d4dd;
+
+      &:hover {
+        color: chartreuse;
+      }
+    }
+  }
+
+    .button-list {
+      height: 100%;
+      margin-top: 1em;
+      border: none;
+    }
+  }
+
+
+
+@media only screen and (min-width: $breakpoint-large) {
+  .nav-menu {
+      margin-bottom: 33%;
+    }
+  }
+
+
+@media only screen and (min-width: $breakpoint-med) and (max-width: $breakpoint-large) {
+  .nav-menu {
+      margin-bottom: 33%;
+
+  }
+}
+
