@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$breakpoint-small".
-        on line 13 of C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss
+        on line 8 of C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss
 
-8: $navcolor: #4d4959;
-9: $about-bg: #f7f7f7;
-10: $logo-color: #64c29e;
+3:   width: 100vw;
+4:   font-family: 'Lato', sans-serif;
+5: 
+6: }
+7: 
+8: @media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-med) {
+9:   nav {
+10:     position: relative;
 11: 
-12: 
-13: @media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-med) {
-14:   nav {
-15:     position: relative;
-16:     .nav-menu {
-17:       display: flex;
-18:       justify-content: space-between;
+12:     .nav-menu {
+13:       display: flex;
 
 Backtrace:
-C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss:13
+C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss:8
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:555:in `block in run_interp_no_strip'
@@ -55,4 +55,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$breakpoint-small\".\A         on line 13 of C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss\A \A 8: $navcolor: #4d4959;\A 9: $about-bg: #f7f7f7;\A 10: $logo-color: #64c29e;\A 11: \A 12: \A 13: @media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-med) {\A 14:   nav {\A 15:     position: relative;\A 16:     .nav-menu {\A 17:       display: flex;\A 18:       justify-content: space-between;"; }
+  content: "Error: Undefined variable: \"$breakpoint-small\".\A         on line 8 of C:\Users\Admin\Documents\GitHub\Site_becycle\scss\variables.scss\A \A 3:   width: 100vw;\A 4:   font-family: 'Lato', sans-serif;\A 5: \A 6: }\A 7: \A 8: @media only screen and (min-width: $breakpoint-small) and (max-width: $breakpoint-med) {\A 9:   nav {\A 10:     position: relative;\A 11: \A 12:     .nav-menu {\A 13:       display: flex;"; }
